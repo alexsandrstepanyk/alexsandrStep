@@ -1,0 +1,23 @@
+players = {
+    'zett' : 1994,
+    'bober' : 1990,
+    'vaschuk' : 2000,
+    'petruk' : 1972
+}
+players = dict(zett=1994, bober=1990, vaschuk=2000, petruk=1972)
+print(players)
+
+pip = players['zett']
+print(f"happy birthday zett is  {pip}")
+
+players.get('petruk')
+print(players.get('petruk'))
+players ['sirko'] = 2001
+print(players)
+del players['sirko']
+print(players)
+keys = players.keys()
+print(type(keys))
+print(keys)
+l = list(players.keys())
+print(type(l))

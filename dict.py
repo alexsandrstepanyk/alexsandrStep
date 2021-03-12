@@ -47,3 +47,9 @@ players_copy.pop('ivan')
 print(players_copy)
 players_copy ['koncheniy'] = 1972
 print(players_copy)
+print(players_copy.popitem())
+print(players_copy)
+print(len(players_copy))
+
+players_copy.setdefault('igor')
+print(players_copy)
